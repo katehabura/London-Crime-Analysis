@@ -1,7 +1,7 @@
 # London Crime Analysis - Katherine Habura
 
 ## London Crime Analysis Introduction
-The following is an analysis of crimes committed in the 32 London boroughs + the City of London from 2008 to 2016. The crimes reported are split up into major and minor categories. Crimes included in the "major category" include sexual offences, violence against the person, drugs, theft and handling, robbery, fraud or forgery, criminal damage, burglary, and other notable offenses. There are 32 crimes included in the "minor category", and they can be considered as a more specific categorization of the major category crimes. 
+The following is an analysis of crimes committed in the 32 London boroughs + the City of London from 2008 to 2016. The crimes reported are split up into major and minor categories. Crimes included in the "major category" include sexual offences, violence against the person, drugs, theft and handling, robbery, fraud or forgery, criminal damage, burglary, and other notable offenses. There are 32 crimes included in the "minor category", and they can be defined as a more specific categorization of the major category crimes. 
 
 For this analysis, I will be taking on the role of somebody who is considering purchasing property in London, and I only want to purchase a property in a borough that is considered safe. The following questions will be used to guide the analysis: 
 * How can crime in London be summarized in order to get a general idea of the safety of the city?
@@ -9,7 +9,7 @@ For this analysis, I will be taking on the role of somebody who is considering p
 * What boroughs are considered to be the most dangerous and safest to live based on non-violent crime?
 
 ## A Summary of London Crime
-Figure 1 reveals the total number of crimes within each major category among all London buroughs and the City of London, with Theft and Handling, Violence Against the Person, and Criminal Damange are the top 3 most common crimes. Figure 2 reveals the top 10 buroughs (including the City of London) with the most amount of crimes. Figure 3 reveals that the most common crime within the top 10 most crime-laden buroughs is Theft and Handling.
+Figure 1 reveals the total number of crimes within each major category among all London boroughs and the City of London, with Theft and Handling, Violence Against the Person, and Criminal Damange are the top 3 most common crimes. Figure 2 reveals the top 10 boroughs (including the City of London) with the most amount of crimes. Figure 3 reveals that the most common crime within the top 10 most crime-laden boroughs is Theft and Handling.
 
 ```sql
 
@@ -100,7 +100,7 @@ Limit 10
 <p align="center">Figure 5</p>
 
 ## What boroughs are considered to be the most dangerous and safest to live based on non-violent crime?
-As Figure 6 reveals, violent crime makes up "only" about 1/3 of all London crime. So, what boroughs are considered to be the most dangerous and safest to live based on non-violent crime? Figure 7 reveals those results, while figure 8 shows the results for the safest neighborhoods based on non-violent crimes.
+As Figure 6 reveals, violent crime makes up "only" about 1/3 of all London crime. So, what boroughs are considered to be the most dangerous and safest to live based on non-violent crime? Figure 7 reveals those results, while Figure 8 shows the results for the safest neighborhoods based on non-violent crimes.
 
 ```sql
 SELECT
@@ -152,9 +152,9 @@ limit 10
 </div>
 <p align="center">Figure 8</p>
 
-## So, where will purchase a property?
+## So, where will we purchase a property?
 The City of London appears to be the best place to purchase property based strictly on crime. If I wanted to further this analysis, I could consider the following:
-* The average price of property per burough 
-* Crime trends throughout the years. For example, is there a burough that isn't currently rated the safest, but is trending towards safe? That might make it possible to purchase a cheaper property at the present time. Unfortunately, this data set is not showing any change in crime from 2008-2016, which makes me question the validity of this dataset. 
+* The average price of property per borough 
+* Crime trends throughout the years. For example, is there a borough that isn't currently rated the safest, but is trending towards safe? That might make it possible to purchase a cheaper property at the present time. Unfortunately, this data set is not showing any change in crime from 2008-2016, which makes me question the validity of this dataset. 
 
 
